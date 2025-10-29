@@ -1,0 +1,45 @@
+name: book_club_app
+description: A Book Club and Reading Tracker App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # Backend
+  supabase_flutter: ^2.0.0
+  
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+  
+  # UI
+  google_fonts: ^6.1.0
+  fl_chart: ^0.65.0
+  table_calendar: ^3.0.9
+  
+  # Utils
+  uuid: ^4.2.2
+  intl: ^0.19.0
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
